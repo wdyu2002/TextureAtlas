@@ -1,0 +1,5 @@
+<project name="Build App Shell Jar" default="jar">
+	<target name="jar">
+    	<jar jarfile="TextureAtlasCreator.jar" basedir="bin" manifest="MANIFEST.MF"/>
+	</target>
+</project>
